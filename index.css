@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    /* background-color: antiquewhite; */
+}
+.form{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 60vw;
+    margin-left: 20%;
+    background-color: aliceblue;
+    border: thick ;
+}
+h2{
+    padding-bottom: 90px;
+}
+.mileage{
+    padding-bottom:10px ;    
+}
+.distance{
+    padding-bottom: 10px;
+}
+.price{
+    padding-bottom: 10px;
+}
+.submit{
+    padding-left: 175px;
+   
+
+}
+.box{
+    height: 5rem;
+    width: 30rem;
+    border:3px solid black;
+    text-align:center;
+}
+p{
+    text-shadow: steelblue;
+    font-size: 1rem;
+}
+
+#mileage,#distance,#price{
+    height: 60px;
+    width:350px;
+    font-size: 0.9rem;
+    border: 2px solid black;
+}
+button{
+    cursor: pointer;
+    background-color: aquamarine;
+    color:rgb(255, 254, 254);
+    border: 2px solid black;
+    padding: 15px 25px;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+}
+button:hover{
+    background-color:rgb(255, 254, 254);
+    color: rgb(10, 138, 95);
+    font-size: larger;
+}
