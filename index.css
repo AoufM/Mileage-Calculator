@@ -12,11 +12,12 @@
     height: 70vh;
     width: 60vw;
     margin-left: 20%;
-    background-color: aliceblue;
+    background-color: rgb(240, 237, 235);
     border: thick ;
+    border-radius: 25px;
 }
 h2{
-    padding-bottom: 90px;
+    padding-bottom: 80px;
 }
 .mileage{
     padding-bottom:10px ;    

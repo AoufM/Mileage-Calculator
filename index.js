@@ -3,6 +3,8 @@ let distanceb = document.getElementById("distance");
 let priceb= document.getElementById("price");
 let boxb = document.getElementById("box");
 let button = document.getElementById("button");
+let meter = document.getElementById("meter");
+let kmeter = document.getElementById("kmeter");
 
 button.onclick = () => {
     if(mileageb.value=== ""|| distanceb.value===""|| priceb.value===""){
@@ -15,7 +17,6 @@ button.onclick = () => {
   if (a <= 0 || b <= 0|| c<=0) {
     boxb.innerText = "Please Enter positive values";
   } else {
-    console.log(a / b);
     let d = a / b;
     boxb.innerText = `It will cost Rs.${d*c} to drive ${a} kilometers`;
   }}
